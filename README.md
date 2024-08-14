@@ -2,15 +2,24 @@
 
 Convert markdown to html
 
-### test data
-again __hello__???
+**Supports the following:**
 
-`hello world`
+# Heading One
+
+## Heading Two
+
+### Heading Three
+
+__strong text__
+
+**BOLD TEXT**
+
+`print("supports code")`
 
 ```
-print('hi')
+# as well as code blocks
+print("now thats cool")
 
 ```
 
-[Link text Here](https://link-url-here.org)
-[aweomse website](https://www.google.com)
+[Awesome Links](https://link-url-here.org)
