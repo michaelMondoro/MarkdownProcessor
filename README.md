@@ -24,7 +24,16 @@ print("now thats cool")
 
 [Awesome Links](https://link-url-here.org)
 
-## Results
+## Usage
+
+```
+import MarkdownProcessor
+proc = MarkdownProcessor()
+proc.load('README.md')
+html = proc.convert()
+print(html)
+```
+
 ```
 <h1>MarkdownProcessor</h1>
 <p>Convert markdown to html</p>
@@ -40,4 +49,12 @@ print("now thats cool")
 print("now thats cool")
 <code>
 <p><a href='https://link-url-here.org'>Awesome Links</a></p>
+<h2>Usage</h2>
+<code>
+import MarkdownProcessor
+proc = MarkdownProcessor()
+proc.load('README.md')
+html = proc.convert()
+print(html)
+<code>
 ```
