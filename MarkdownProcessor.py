@@ -62,7 +62,6 @@ class MarkdownProcessor:
 if __name__=="__main__":
     proc = MarkdownProcessor()
     proc.load('README.md')
-    # print(proc.convert())
-    print(proc.chunks)
+    print(proc.convert())
 
 
